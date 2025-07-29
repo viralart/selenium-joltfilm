@@ -17,6 +17,7 @@ public class joltTest {
 		driver.get("https://jolt.film");
 		//driver.findElement(By.xpath("//button[@aria-label='Log IN']")).click();
 		//driver.findElement(By.xpath("//label[@id='username-label']")).sendKeys("prodjolt19@yopmail.com");
+		driver.close();
 		
 	}
 }
